@@ -58,10 +58,10 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
+        "bin-dir": "vender/bin",
         "allow-plugins": {
             "pestphp/pest-plugin": true,
-            "php-http/discovery": true,
-            "bin-dir": "vender/bin"
+            "php-http/discovery": true
         }
     },
     "minimum-stability": "stable",
