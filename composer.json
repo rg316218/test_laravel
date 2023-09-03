@@ -60,7 +60,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "bin-dir": "vender/bin"
         }
     },
     "minimum-stability": "stable",
